@@ -1,7 +1,13 @@
 # Real-time-CPU-and-RAM-Utilization-Python
-This repository contains a Python script that uses the matplotlib library to plot the real-time CPU and RAM utilization of a system.
-Dependencies
-The following Python packages are required to run the script:
+This repository contains a Python file that uses the matplotlib library to plot the real-time CPU and RAM utilization of a system.
 
-matplotlib
-psutil
+## Dependencies
+- [x] matplotlib
+- [x] psutil
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+-[Matplotlib](https://matplotlib.org/)
+-[psutil](https://psutil.readthedocs.io/en/latest/)
