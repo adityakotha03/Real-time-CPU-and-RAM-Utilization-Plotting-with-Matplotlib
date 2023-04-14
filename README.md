@@ -20,9 +20,9 @@ This repository contains a Python file that uses the matplotlib library to plot 
   python cpu_memory.py --duration 30 --filename myplot.png
   ```
   
-This will monitor CPU and memory usage for 30 seconds and save the utilization plot as **"myplot.png"**. The script displays the time left for monitoring in seconds and updates every second.
+This will monitor CPU and memory usage for **30 seconds** and save the utilization plot as **"myplot.png"**. The script displays the time left for monitoring in seconds and updates every second.
 
-To stop the monitoring and generate the utilization plot before the specified duration, press ***CTRL+C***. The script will generate the utilization plot with the data collected up to that point and save it with the specified filename. The script uses a signal function to handle CTRL+C interrupts and ensure that the utilization plot is saved before exiting.
+To stop the monitoring and generate the utilization plot before the specified duration, press ***"CTRL+C"***. The script will generate the utilization plot with the data collected up to that point and save it with the specified filename. The script uses a signal function to handle CTRL+C interrupts and ensure that the utilization plot is saved before exiting.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
